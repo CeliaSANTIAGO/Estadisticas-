@@ -10,7 +10,7 @@ public class Estadisticas{
   double desviacion= 0.0; 
    
   Scanner entrada = new Scanner(System.in);
-                //se abre el flujo entrada
+            
   
   System.out .println("Ingrese el valor de 10 numeros"
                                      +" como muestra");
@@ -23,7 +23,7 @@ public class Estadisticas{
    suma = suma + valor[i];
     
   }
-  entrada.close();//se cierra el flujo entrada
+  entrada.close();
   
   media = suma / 10; //media aritmetica 
   
@@ -40,7 +40,7 @@ public class Estadisticas{
 
   
   
-  //impresion de resultados
+  //imprimir resultados
   System.out.println("Media: " + media);
   System.out.println("Varianza: " + varianza);
   System.out.println("Desvianción Estándar: " + desviacion);
